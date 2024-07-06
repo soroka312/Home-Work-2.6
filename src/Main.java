@@ -27,9 +27,9 @@ public class Main {
 
         System.out.println();
 
-
-        System.out.println(frequency(strings, "один"));
-        System.out.println(frequency(strings, "два"));
-        System.out.println(frequency(strings, "три"));
+        for (String word : words) {
+            int task4 = frequency(strings, word);
+            System.out.println(task4);
+        }
     }
 }
